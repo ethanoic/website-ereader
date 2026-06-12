@@ -1,0 +1,116 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ReaderView /> > snapshots > matches snapshot for a full article (title + byline + mixed content) 1`] = `
+<div>
+  <div
+    class="px-4 py-6 max-w-2xl mx-auto"
+  >
+    <h1
+      class="text-2xl font-bold mb-2"
+    >
+      Test Article Title
+    </h1>
+    <p
+      class="text-sm text-gray-500 mb-6"
+    >
+      By Jane Doe
+    </p>
+    <div
+      class="prose max-w-none prose-img:max-w-full"
+    >
+      <p>
+        Article content here.
+      </p>
+      <img
+        alt="photo"
+        src="https://example.com/photo.jpg"
+      />
+      <a
+        href="https://example.com"
+      >
+        a link
+      </a>
+      <pre>
+        <code>
+          const x = 1;
+        </code>
+      </pre>
+      <div
+        class="overflow-x-auto"
+      >
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Col
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                data
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ReaderView /> > snapshots > matches snapshot for an article with no byline 1`] = `
+<div>
+  <div
+    class="px-4 py-6 max-w-2xl mx-auto"
+  >
+    <h1
+      class="text-2xl font-bold mb-2"
+    >
+      Test Article Title
+    </h1>
+    <div
+      class="prose max-w-none prose-img:max-w-full"
+    >
+      <p>
+        Article content here.
+      </p>
+      <img
+        alt="photo"
+        src="https://example.com/photo.jpg"
+      />
+      <a
+        href="https://example.com"
+      >
+        a link
+      </a>
+      <pre>
+        <code>
+          const x = 1;
+        </code>
+      </pre>
+      <div
+        class="overflow-x-auto"
+      >
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Col
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                data
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
